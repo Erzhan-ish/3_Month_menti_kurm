@@ -2,10 +2,13 @@ from aiogram import executor
 import logging
 from bot_config import dp, bot, admins
 from handlers import commands, echo, quiz, FSM_registration, FSM_store
+from db import main_db
+import buttons
 
 async def on_startup(_):
     for admin in admins:
-        await bot.send_message(chat_id=admin, text='Бот включен!')
+        await bot.send_message(chat_id=admin, text='Бот включен!', reply_markup=buttons.start)
+        await main_db.create_tables()
 
 async def on_shutdown(_):
     for admin in admins:

@@ -1,11 +1,11 @@
 from aiogram import types, Dispatcher
 from bot_config import bot, dp
-
+import buttons
 
 async def start_handler(message: types.Message):
     await bot.send_message(chat_id=message.from_user.id,
                            text=f"Hello {message.from_user.first_name}!\n"
-                                f"Твой Telegram ID - {message.from_user.id}\n")
+                                f"Твой Telegram ID - {message.from_user.id}\n", reply_markup=buttons.start)
 
 
 
