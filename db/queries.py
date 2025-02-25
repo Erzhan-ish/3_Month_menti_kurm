@@ -23,12 +23,14 @@ TABLE_store = """
     product_name TEXT,
     size TEXT,
     price TEXT,
-    photo TEXT
+    photo TEXT,
+    product_id TEXT
+    collection TEXT
     )
 """
 INSERT_TABLE_store = """
-    INSERT INTO store (product_name, size, price, photo)
-    VALUES (?, ?, ?, ?)
+    INSERT INTO store (product_name, size, price, photo, product_id, collection)
+    VALUES (?, ?, ?, ?, ?, ?)
 """
 
 
@@ -44,4 +46,17 @@ TABLE_product_detail = """
 INSERT_TABLE_product_detail = """
     INSERT INTO product_detail (product_id, category, infoproduct)
     VALUES (?, ?, ?)
+"""
+
+TABLE_collection_products = """
+    CREATE TABLE IF NOT EXISTS collection_products (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_id TEXT,
+    collection TEXT
+  )
+"""
+
+INSERT_TABLE_collection_products = """
+    INSERT INTO collection_products (product_id, collection)
+    VALUES (?, ?)
 """

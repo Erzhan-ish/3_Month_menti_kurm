@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbfdef4e-22ea-45c4-a4e0-64e0eecb943c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/buttons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/main_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/queries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/delete_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/send_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/FSM_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/FSM_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/main_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/main_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/queries.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/FSM_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/FSM_store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/commands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1739900443364</updated>
       <workItem from="1739900444799" duration="15418000" />
-      <workItem from="1740076070844" duration="10713000" />
+      <workItem from="1740076070844" duration="10926000" />
+      <workItem from="1740502609293" duration="4424000" />
     </task>
     <servers />
   </component>
